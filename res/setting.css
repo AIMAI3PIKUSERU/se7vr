@@ -1,0 +1,47 @@
+#body{
+	padding: 10px;
+}
+.item{
+	border: 2px #544 solid;
+	border-radius: 6px;
+/*	border-width: 10px 5px;*/
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 5px 0;
+	background-color: #5444;
+}
+.item>span{
+	font-size: 1.2rem;
+	color: #fee;
+	font-weight: bold;
+}
+.item>span::before{
+	content: '#';
+	color: #fbb3e2;
+	
+	padding-right: 5px;
+} 
+.box>.radiobox,.box>.buttonbox{
+	display: flex;
+	padding: 0 8px;
+	flex-wrap: wrap;
+	align-items: stretch;
+	user-select: none;
+	margin: 2px 0;
+}
+.box{
+	margin-top: 4px;
+}
+.box .radio{
+	flex: 1 0 auto;
+	font-weight: normal;
+	background-color: #555;
+	color: #ffeb;
+
+}
+.box .radio.ckd{
+	font-weight: normal;
+	background-color: #efeeee88;
+	color: #FFB1CB;
+}
