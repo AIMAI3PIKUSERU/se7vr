@@ -26,7 +26,16 @@ pip install flask
 |--nocache/-n| Add the "Cache-Control: no-cache" HTTP header to each response.|
 |--single/-s| Serve a dynamically generated page.|
 
-## 关于--single/-s开关以及美化
+|翻译|
+|----|
+|你要绑定到的具体 IP 地址。|
+|用于提供文件服务的目录。|
+|在每次请求时重新加载 "template.html"、"404.html" 和 "filter.py"。|
+|对路径进行编码（字符显示不正确的情况启用）。|
+|为每个响应添加 "Cache-Control: no-cache" 的 HTTP 响应头。|
+|提供动态生成的页面。|
+
+#### 关于--single/-s开关以及美化
 当不打开这个开关时,每一次对于目录的访问都会将main.py同一文件夹下的`template.html`,作为响应主体返回给客户端,同时,会对这个文件夹中的特定的文本进行替换,替换的文本以及对应含义如下
 |值|含义|
 |-|-|
