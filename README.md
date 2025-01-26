@@ -18,7 +18,7 @@ pip install flask
 键入 --help/-h 参数以查看帮助,其输出如下
 
 |toggle|/|
-|---|---|
+|||
 | --bind/-b | [ip=0.0.0.0]: The specific IP address to bind to. |
 | --dir/-d  | [directory=.]: The directory to serve files from. |
 |--active/-a| Actively reload "template.html" and "404.html" on each request.|
@@ -26,7 +26,7 @@ pip install flask
 |--nocache/-n| Add the "Cache-Control: no-cache" HTTP header to each response.|
 |--single/-s| Serve a dynamically generated page.|
 
-##关于--single/-s开关以及美化
+## 关于--single/-s开关以及美化
 当不打开这个开关时,每一次对于目录的访问都会将main.py同一文件夹下的'template.html',作为响应主体返回给客户端,同时,会对这个文件夹中的特定的文本进行替换,替换的文本以及对应含义如下
 |值|含义|
 |-|-|
