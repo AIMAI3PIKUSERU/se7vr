@@ -1,6 +1,6 @@
 
 # se7vr
-[README_cn.md](https://github.com/AIMAI3PIKUSERU/se7vr/blob/master/README_cn.md)
+[简体中文](https://github.com/AIMAI3PIKUSERU/se7vr/blob/master/README_cn.md)
 #### Introduction
 This is a lightweight, highly customizable server program built with Python.
 
