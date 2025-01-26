@@ -16,8 +16,9 @@ pip install flask
 仓库中的main.py以外的文件全都不是必须的,只是给美化留了一条后路
 如果你想体验 `python -m http.server`的界面,输入`python main.py -s`即可
 键入 --help/-h 参数以查看帮助,其输出如下
-|[port] |--bind [ip] --dir [directory] --active --encode --nocache --single|
-|-----|------|
+[port] --bind [ip] --dir [directory] --active --encode --nocache --single
+|toggle|/|
+|---|---|
 | --bind/-b | [ip=0.0.0.0]: The specific IP address to bind to. |
 | --dir/-d  | [directory=.]: The directory to serve files from. |
 |--active/-a| Actively reload "template.html" and "404.html" on each request.|
