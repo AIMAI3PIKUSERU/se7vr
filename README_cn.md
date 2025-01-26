@@ -1,5 +1,5 @@
 # se7vr
-[README_en.md](https://github.com/AIMAI3PIKUSERU/se7vr/blob/master/README_en.md)
+[English](https://github.com/AIMAI3PIKUSERU/se7vr/blob/master/README_en.md)
 #### 介绍
 这是一个基于Python的轻量,强自定义性的服务器程序
 
